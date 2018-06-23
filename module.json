@@ -1,0 +1,17 @@
+{
+  "name": "Kantoku",
+  "alias": "kantoku",
+  "description": "Module used to handle the create of new modules.",
+  "keywords": [],
+  "version": "2.5.0",
+  "active": 1,
+  "order": 1,
+  "providers": [
+    "Modules\\Kantoku\\Providers\\RouteServiceProvider",
+    "Modules\\Kantoku\\Providers\\KantokuServiceProvider"
+  ],
+  "files": [
+    "composers.php",
+    "helpers.php"
+  ]
+}
